@@ -1,0 +1,64 @@
+/* App.js 样式 */
+.content{
+  margin: 30px auto;
+  width: 40%;
+  border: 2px solid red;
+  background: blanchedalmond;
+  border-radius: 4px;
+}
+
+
+/* title.js 样式 */
+.t-content{
+  /* background: greenyellow; */
+  text-align: center;
+}
+.t-content span {
+  margin-right: -150px;
+}
+
+/* add.js 样式 */
+.a-content{
+  /* background: darkcyan; */
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin: 12px 0;
+}
+.a-content input{
+  height: 24px;
+  width: 200px;
+  border-radius: 5px;
+}
+.a-content button{
+  margin-left: 12px;
+  height: 30px;
+  border-radius: 5px;
+  background: rgb(233, 229, 229);
+  font-weight: bolder;
+  cursor:pointer;
+}
+
+
+/* list.js 样式 */
+.l-content{
+  /* background:lightblue; */
+  width: 72%;
+  margin: 0 auto 10px;
+  padding: 4px 0;
+  
+  /* border: 1px solid black; */
+}
+.l-content p{
+  font-size: 22px;
+  text-align: center;
+}
+.l-content ol li{
+  margin-bottom: 5px;
+}
+.l-content ol li button{
+  float: right;
+  margin-right: 28px;
+  border-radius: 3px;
+  background: blanchedalmond;
+}
